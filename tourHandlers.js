@@ -14,6 +14,7 @@ const createTour = (req, res) => {
   }
 };
 
+
 const getTourById = (req, res) => {
   const tourId = req.params.tourId;
   const tour = Tour.findById(tourId);
